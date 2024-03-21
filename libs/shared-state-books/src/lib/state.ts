@@ -13,6 +13,7 @@ export const FEATURE_KEY = 'shared-books';
 /**
  * State Shape
  **/
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface State {}
 
 export const reducers: ActionReducerMap<State> = {};
